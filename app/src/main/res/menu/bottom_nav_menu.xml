@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFrag"
+        android:icon="@drawable/ic_list"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/exploreFrag"
+        android:icon="@drawable/ic_loupe"
+        android:title="Explore" />
+
+    <item
+        android:id="@+id/redeemFrag"
+        android:icon="@drawable/ic_commerce_and_shopping"
+        android:title="Redeem" />
+    <item
+        android:id="@+id/profileFrag"
+        android:icon="@drawable/ic_perm_identity_black_24dp"
+        android:title="Profile" />
+
+</menu>

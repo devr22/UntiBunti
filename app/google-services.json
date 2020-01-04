@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "675795519286",
+    "firebase_url": "https://untibunti-407b0.firebaseio.com",
+    "project_id": "untibunti-407b0",
+    "storage_bucket": "untibunti-407b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675795519286:android:72b7f230e97c296ee61597",
+        "android_client_info": {
+          "package_name": "com.example.untibunti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675795519286-97frlkt2s8jbijar7bfqvevnm8idkmfn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.untibunti",
+            "certificate_hash": "b73b879e396c5db001ae5c9199f836ff5a66384a"
+          }
+        },
+        {
+          "client_id": "675795519286-bkje19p0raa5bja1r89khjku19h24m64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxXX3g_7QsJCZaDsA1Robntz7qED4qnKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675795519286-bkje19p0raa5bja1r89khjku19h24m64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
