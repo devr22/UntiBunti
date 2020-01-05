@@ -2,9 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.untibunti">
 
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -13,14 +13,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".VideoActivity"></activity>
+        <activity android:name=".VideoActivity" />
         <activity android:name=".ShopDisplayActivity" />
         <activity android:name=".CategoryWiseShopDisplay" />
         <activity android:name=".CouponRegisterActivity" />
         <activity android:name=".ShopRegisterActivity" />
         <activity android:name=".VerificationActivity" />
         <activity android:name=".PhoneAuthActivity" />
-        <activity android:name=".About" />
         <activity android:name=".TaskActivity" />
         <activity android:name=".Home" />
         <activity android:name=".MainActivity">
