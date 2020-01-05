@@ -80,7 +80,6 @@ public class LocarionService extends AppCompatActivity {
     private void getDeviceLocation(){
 
         Log.d(TAG, "getDeviceLocation: fetching device location");
-
         fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this);
 
         try {
