@@ -20,7 +20,6 @@
         <activity android:name=".ShopRegisterActivity" />
         <activity android:name=".VerificationActivity" />
         <activity android:name=".PhoneAuthActivity" />
-        <activity android:name=".About" />
         <activity android:name=".TaskActivity" />
         <activity android:name=".Home" />
         <activity android:name=".MainActivity">
@@ -30,6 +29,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Services.LocationService" />
     </application>
 
 </manifest>

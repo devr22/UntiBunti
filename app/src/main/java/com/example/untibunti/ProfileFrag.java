@@ -56,13 +56,6 @@ public class ProfileFrag extends Fragment {
 
         ListView lv=view.findViewById(R.id.lvProfile);
         LinearLayout linearLayout=view.findViewById(R.id.aboutdispLL);
-        linearLayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(view.getContext(),About.class));
-
-            }
-        });
 
         String[] Title={"Coupons","History","Setting","Share","Check"};
         MyAdapter adapter =new MyAdapter(view.getContext(),Title);
