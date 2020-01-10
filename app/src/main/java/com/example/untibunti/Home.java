@@ -65,7 +65,6 @@ public class Home extends AppCompatActivity {
             @Override
             public void onSuccess(DocumentSnapshot documentSnapshot) {
                 Coins=documentSnapshot.getId();
-
             }
         });*/
 
@@ -215,20 +214,3 @@ public class Home extends AppCompatActivity {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

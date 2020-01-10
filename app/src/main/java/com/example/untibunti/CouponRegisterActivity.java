@@ -22,7 +22,7 @@ import java.util.Map;
 public class CouponRegisterActivity extends AppCompatActivity {
 
     FirebaseFirestore firebaseFirestore;
-    EditText SRPhone,CouponTitle,CouponDesc,CoinsReq;
+    EditText SRPhone,CouponTitle,CouponDesc;
     Spinner CoupCat;
     String[] cat={"Basic","Silver","Gold","Platinum","Task"};
     Map<String,String> CoupDet =new HashMap<>();
@@ -37,7 +37,6 @@ public class CouponRegisterActivity extends AppCompatActivity {
         SRPhone=findViewById(R.id.etShopRegPhone);
         CouponTitle=findViewById(R.id.etCouponTitle);
         CouponDesc=findViewById(R.id.etCouponDesc);
-        CoinsReq=findViewById(R.id.etCoinsReq);
         CoupCat=findViewById(R.id.spCouponCat);
         ArrayAdapter<String> arrayAdapter =new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,cat);
         CoupCat.setAdapter(arrayAdapter);
@@ -59,7 +58,7 @@ public class CouponRegisterActivity extends AppCompatActivity {
     public void submitCoupon(View view) {
         CoupDet.put("Title",CouponTitle.getText().toString());
         CoupDet.put("Description",CouponDesc.getText().toString());
-        CoupDet.put("Coins",CoinsReq.getText().toString());
+
 
         firebaseFirestore.collection("SHOP").document(SRPhone.getText().toString()).collection("COUPONS").add(CoupDet).addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
             @Override
